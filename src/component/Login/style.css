@@ -1,0 +1,29 @@
+.login-main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec-login {
+    width: 40%;
+    text-align: center;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 15px;
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+    .sec-login {
+        width: 70%;
+    }
+}
+
+@media (min-width:0px) and (max-width:767px) {
+    .sec-login {
+        width: 95%;
+    }
+    .input-sec-login{
+        width: 100%!important;
+    }
+}

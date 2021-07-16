@@ -1,0 +1,5 @@
+@media (min-width:0px) and (max-width:767px) {
+    .table-order {
+        width: 48rem!important;
+    }
+}

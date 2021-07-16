@@ -1,0 +1,15 @@
+@media (min-width:0px) and (max-width:767px) {
+    .price-div-detail {
+        flex-direction: column;
+    }
+    .btn-cart-and-wish {
+        margin-top: 1rem;
+    }
+    .width-review {
+        width: 100%!important;
+    }
+    .review-flex-container {
+        flex-direction: column;
+        padding-bottom: 1rem;
+    }
+}

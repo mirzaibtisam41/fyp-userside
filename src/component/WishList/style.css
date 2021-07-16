@@ -1,0 +1,8 @@
+@media (min-width:0px) and (max-width:767px) {
+    .main-wishlist {
+        flex-direction: column;
+    }
+    .view-div{
+        margin-top: 1rem;
+    }
+}

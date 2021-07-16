@@ -1,0 +1,16 @@
+.c-item{
+    height: 25rem!important;
+}
+
+.img-responsive{
+    object-fit: fill!important;
+}
+
+.active {
+    border: none!important;
+}
+
+.carousel-indicators>.active{
+    position: relative!important;
+    top: 10px!important;
+}

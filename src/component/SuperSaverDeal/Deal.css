@@ -1,0 +1,102 @@
+.saver-heading {
+    padding: .8rem 1rem;
+    border-bottom: 1px solid rgb(212, 210, 210);
+}
+
+.image-hover {
+    padding: .5rem 0rem;
+}
+
+.image-hover {
+    transition: 0.3s;
+}
+
+.deal-image:hover .image-hover {
+    transform: scale(1.1);
+}
+
+.slick-prev {
+    left: .5% !important;
+    background-color: black!important;
+    border-radius: 50%;
+    width: 40px!important;
+    height: 40px!important;
+    z-index: 1;
+}
+
+.slick-prev::before, .slick-next::before {
+    color: white!important;
+}
+
+.desc {
+    font-size: 15px;
+}
+
+.slick-next {
+    right: .5% !important;
+    background-color: black!important;
+    border-radius: 50%;
+    width: 40px!important;
+    height: 40px!important;
+    z-index: 1;
+}
+
+.detail-div {
+    height: 100%;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.car-head {
+    font-size: 14px;
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* next  to saver*/
+
+.nextSavercontainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.next-images {
+    background-color: white;
+    padding: 5px;
+    /* width: 32.5%; */
+}
+
+.next-images>img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-radius: 1rem;
+}
+
+.lineover {
+    text-decoration: line-through;
+}
+
+.font-size {
+    font-size: small;
+}
+
+.containerWidth {
+    width: 80%;
+}
+
+.containerWidthFull {
+    width: 100%;
+}
+
+@media (min-width:0px) and (max-width:767px) {
+    .saver-heading {
+        flex-direction: column;
+    }
+    .nextSavercontainer {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
